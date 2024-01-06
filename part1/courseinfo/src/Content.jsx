@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Part from "./Part";
 
 function Content({ parts }) {
