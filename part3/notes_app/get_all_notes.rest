@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/notes/
+
+###
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+
+{
+    "content": "Install REST Client plugin and be a good boy",
+    "important": true
+}
+
+###
+DELETE http://localhost:3001/api/notes/2
